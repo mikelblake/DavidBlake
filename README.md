@@ -1,4 +1,5 @@
 DavidBlake
 ==========
+My first attempt at building a site from scratch
 
-Hubby's portfolio site
+David Blake's portfolio site
