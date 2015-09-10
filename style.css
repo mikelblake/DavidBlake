@@ -1,0 +1,194 @@
+/* ///// RESET ///// */
+
+*{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+
+/* ///// Nav Bar ///// */
+
+.nav-bar {
+			background: #1B1E25;
+			text-align: center;
+			font: 15px "Trebuchet MS", Arial, sans-serif;
+			padding: 15px;
+
+		}
+
+	nav a {
+		padding: 20px;
+		margin: 20 0 20px;
+		color: #484848;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+		nav a:hover {
+			background: black;
+			color: white;
+		}
+/* ///// Main Header with Pic ///// */
+
+.main-header { 
+	background:url('Dave.jpg');
+	background-size:cover;
+	padding:310px 0 300px 0;
+
+}
+
+.wrapper {
+
+	font: 20px 'Quicksand';
+	height: 100px;
+	width: 250px;
+	margin: -90px 90px;
+	float: right;
+
+}
+
+.wrapper h1 {
+	font: 40px 'Quicksand';
+	margin-bottom: 10px;
+	
+}
+
+/* ///// About Paragraph ///// */
+
+.wrap {
+	text-align: center;
+	color: #ADADAD;
+	margin: 50px 100px 85px 100px;
+	font-family: "Quicksand";
+}
+
+	.wrap h2 {
+		font: 40px "Quicksand";
+		padding: 25px;
+	}
+
+.para-format {
+	line-height: 1.3em;
+}
+
+.spacing {
+	margin: 10px;
+}
+/* ///// Portfolio Pics ///// */
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.right-wrap {
+	margin: 5%;
+
+}
+.projects{
+	margin-left: 10px;
+}
+.logos {
+	margin: 30px;
+	
+}
+
+/*  ///// Video /////  */
+.left-wrap {
+	clear: left;
+	margin: 10px 0 90px 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/* ///// Articles /////*/
+.clearfix {
+	clear: left;
+}
+
+.title {
+	
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.summary {
+	font: 15px;
+	margin: 15px 15px 15px 30px;
+}
+
+.push_it {
+	margin: 0 10px 0 0;
+}
+/* ///// Social Buttons ///// */
+
+.social {
+	clear: both;
+	background: black;
+	height: 250px;
+	padding: 50px;
+	
+}
+
+.social a {
+	color: #ADADAD;
+}
+
+	.social a:hover {
+		background: black;
+		color: white;
+}
+.spacing {
+	padding: 0 50px 0 50px;
+}
+
